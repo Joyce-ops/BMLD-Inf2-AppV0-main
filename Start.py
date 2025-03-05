@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-st.title("Meine erste Streamlit App")
-
+st.title("App von Joyce und Mcqulat")
+st.write("Willkommen zur App von Joyce und Mcqulat. Hier kannst du einen Rechner finden, die dir im Chemie-Alltag helfen können.")
 # !! WICHTIG: Eure Emails müssen in der App erscheinen!!
 
 # Streamlit über den Text unten direkt in die App - cool!
