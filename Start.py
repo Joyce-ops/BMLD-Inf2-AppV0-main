@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("App von Joyce und Mcqulat")
 st.write("Willkommen zur App von Joyce und Mcqulat. Hier kannst du einen Rechner finden, die dir im Chemie-Alltag helfen können.")
-St.write("Hier kannst du ganz einfach per EIngabe von Masse und Molare Masse die Stoffmenge berechnen.")
+st.write("Hier kannst du ganz einfach per EIngabe von Masse und Molare Masse die Stoffmenge berechnen.")
 if st.button("Rechner Stoffmenge"):
     st.switch_page("pages/1_Rechner.py")
 # !! WICHTIG: Eure Emails müssen in der App erscheinen!!
