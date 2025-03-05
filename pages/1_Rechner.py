@@ -10,3 +10,5 @@ st.write("Ergebnis: Stoffmenge in mol")
 
 if st.button("Home"):
     st.switch_page("Start.py")
+if st.button("Rechner 2"):
+    st.switch_page("pages/2_Rechner.py")

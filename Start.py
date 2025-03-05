@@ -15,5 +15,7 @@ Autoren:
 - Joyce Baumann (Baumajoy@students.zhaw.ch)
 - Mcqulat Miller (millemcq@students.zhaw.ch)
 """
-if st.button("Rechner"):
+if st.button("Rechner Stoffmenge"):
     st.switch_page("pages/1_Rechner.py")
+if st.button("Rechner 2"):
+    st.switch_page("pages/2_Rechner.py")
