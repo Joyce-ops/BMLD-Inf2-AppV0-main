@@ -9,7 +9,6 @@ if st.button("Home"):
 
 def calculate_Stoffmenge(Masse, Molaremasse):
     Stoffmenge = Masse / Molaremasse
-    return {"Stoffmenge": Stoffmenge, "timestamp": datetime.now()}
 
 with st.form("Stoffmenge berechner"):
     Masse = st.number_input('Geben Sie die Masse ein (in Gramm)', min_value=0.001, max_value=10000.0, value=1.7, step=0.01)
