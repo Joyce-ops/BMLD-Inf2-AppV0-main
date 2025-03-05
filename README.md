@@ -1,8 +1,8 @@
 # BMLD-Inf2-AppV0
 
-Das leere Gerüst um eine App aufzubauen.
+Unsere erste kleine App.
 
-## Autor
+## Autoren
 
 Joyce Baumann (baumajy@students.zhaw.ch)
 Mcqulat Miller (millemcq@students.zhaw.ch)
