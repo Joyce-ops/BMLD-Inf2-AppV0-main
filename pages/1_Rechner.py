@@ -11,7 +11,7 @@ submitted = st.form_submit_button("Submit")
     
 if submitted:
     
-    result = calculate_stoffmenge(Masse / Molare Masse)
+    result = calculate_stoffmenge(Masse, Molare Masse)
     
     st.write(f'Die Stoffmenge ist: {result["Stoffmenge"]} mol')
     st.write(f'Berechnet am: {result["timestamp"].strftime("%d.%m.%Y %H:%M:%S")}')
