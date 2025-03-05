@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Stoffmengenrechner")
+st.title("Rechner")
 
 st.header("Berechnung von Stoffmengen")
 
@@ -26,16 +26,21 @@ if submitted:
 if st.button("Home"):
     st.switch_page("Start.py")
 
+
 import streamlit as st
+
 st.markdown(
     """
     <style>
-    .stApp {background-color: #0A0443;}
+    .stForm {
+        background-color: #7CA9BD;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .stForm div {
+        color: white;  /* Optional: Textfarbe ändern, damit sie besser lesbar ist */
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
-
-# Pick a color using Streamlit's color picker widget
-color = st.color_picker("Pick A Color", "#0A0443")
-st.write("The current color is", color)
