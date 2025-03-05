@@ -14,8 +14,5 @@ Diese App wurde von folgenden Personen entwickelt:
 - Joyce Baumann (Baumajoy@students.zhaw.ch)
 - Mcqulat Miller (millemcq@students.zhaw.ch)
 
-Autoren: 
-- Joyce Baumann (Baumajoy@students.zhaw.ch)
-- Mcqulat Miller (millemcq@students.zhaw.ch)
 """
 
