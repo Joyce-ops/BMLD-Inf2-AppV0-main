@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Stoffmengenrechner")
 st.write("Hier kannst du per Eingabe von Masse und Molare Masse die Stoffmenge berechnen.")
-if st.button("Stoffmengen Rechner"):
+if st.button("Hier gehts zum Rechner"):
     st.switch_page("pages/1_Rechner.py")
 
 # !! WICHTIG: Eure Emails müssen in der App erscheinen!!
