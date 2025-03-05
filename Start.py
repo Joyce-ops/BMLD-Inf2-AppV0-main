@@ -17,5 +17,3 @@ Autoren:
 """
 if st.button("Rechner Stoffmenge"):
     st.switch_page("pages/1_Rechner.py")
-if st.button("Rechner 2"):
-    st.switch_page("pages/2_Rechner.py")
