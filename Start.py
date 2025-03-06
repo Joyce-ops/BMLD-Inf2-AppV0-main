@@ -2,7 +2,10 @@ import streamlit as st
 import pandas as pd
 
 st.title("Stoffmengenrechner")
-st.write("Hier kannst du per Eingabe von Masse und Molare Masse die Stoffmenge berechnen.")
+st.subheader("Willkommen beim Stoffmengen-Rechner!")
+st.info("Berechnen Sie schnell und einfach die benötigten Mengen für Ihre Materialien. Ob für Projekte, Produktionen oder den täglichen Bedarf unser Tool hilft Ihnen, präzise und effizient zu planen.")
+
+st.write("Legen Sie direkt los und optimieren Sie Ihre Berechnungen!")
 if st.button("Hier gehts zum Rechner"):
     st.switch_page("pages/1_Rechner.py")
 

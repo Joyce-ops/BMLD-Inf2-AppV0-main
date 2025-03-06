@@ -12,8 +12,8 @@ def calculate_Stoffmenge(Masse, Molaremasse):
     
 
 with st.form("Stoffmenge berechner"):
-    Masse = st.number_input('Geben Sie die Masse ein (in Gramm)', min_value=0.0001, max_value=10000.0, value=10.0, step=0.0001)
-    Molaremasse = st.number_input('Geben Sie die Molaremasse ein (in g/mol)', min_value=1.0, max_value=500.0, value=1.008, step=0.0001)
+    Masse = st.number_input('Geben Sie die Masse ein (in Gramm)', min_value=0.001, max_value=1000.0, value=10.000, step=0.001)
+    Molaremasse = st.number_input('Geben Sie die Molaremasse ein (in g/mol)', min_value=1.0, max_value=500.0, value=1.008, step=0.001)
 
     submitted = st.form_submit_button("Submit")
     
@@ -21,7 +21,7 @@ if submitted:
     
     result = calculate_Stoffmenge(Masse, Molaremasse)
     
-    st.write(f'Die Stoffmenge ist: {result}')
+    st.write(f'Die Stoffmenge ist: {result} mol')
 
 if st.button("Home"):
     st.switch_page("Start.py")
