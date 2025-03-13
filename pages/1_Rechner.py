@@ -47,3 +47,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
+ # Save data
+DataManager().append_record(session_state_key='data_df', record_dict=result)  # update data in session state and storage
+
