@@ -6,6 +6,8 @@ from utils.login_manager import LoginManager
 # initialize the data manager
 data_manager = DataManager(fs_protocol='webdav', fs_root_folder="BMLD_App_DB")  # switch drive 
 
+# === Initialize the login manager ===
+from utils.login_manager import LoginManager
 login_manager = LoginManager(data_manager)
 login_manager.login_register()  # open login/register page
 
@@ -15,12 +17,6 @@ data_manager.load_user_data(
     file_name='data.csv', 
     initial_value = pd.DataFrame(), 
     )
-
-# === Initialize the login manager ===
-from utils.login_manager import LoginManager
-
-login_manager = LoginManager(data_manager) # initialize login manager
-login_manager.login_register()  # opens login page
 
 
 # === Main page ===
