@@ -24,19 +24,19 @@ st.write("Verfügbare Spalten:", data_df.columns)
 if 'masse' in data_df.columns:
     st.line_chart(data=data_df.set_index('masse'), use_container_width=True)
     st.caption('Masse (g)')
-else:
-    st.warning("Spalte 'masse' nicht gefunden.")
+
 
 # Molare Masse
 if 'Molaremasse' in data_df.columns:
     st.line_chart(data=data_df.set_index('Molaremasse'), use_container_width=True)
     st.caption('Molaremasse (g/mol)')
-else:
-    st.warning("Spalte 'Molaremasse' nicht gefunden.")
+
 
 # Stoffmengen
 if 'Stoffmengen' in data_df.columns:
     st.line_chart(data=data_df.set_index('Stoffmengen'), use_container_width=True)
     st.caption('Stoffmenge über Zeit')
-else:
-    st.warning("Spalte 'Stoffmengen' nicht gefunden.")
+
+
+if st.button("Home"):
+    st.switch_page("Start.py")

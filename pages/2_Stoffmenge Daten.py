@@ -17,3 +17,6 @@ if data_df.empty:
 
 # Display table
 st.dataframe(data_df)
+
+if st.button("Home"):
+    st.switch_page("Start.py")
