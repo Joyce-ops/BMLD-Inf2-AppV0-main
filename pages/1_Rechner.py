@@ -23,10 +23,10 @@ with st.form("Stoffmenge berechner"):
     submitted = st.form_submit_button("Submit")
     
 if submitted:
-    
+    result = None
     result = calculate_Stoffmenge(Masse, Molaremasse)
-    
     st.write(f'Die Stoffmenge ist: {result} mol')
+
 
 if st.button("Home"):
     st.switch_page("Start.py")
